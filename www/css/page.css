@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.teacher p a, .help a, .recomm a {height: 34px; border: 1px solid #e5e5e5; background: transparent; border-radius: 17px; padding: 0 25px; line-height: 34px; color: #00aeef; cursor: pointer}
+
+.teacher {padding: 10px 16px; background: #fff}
+.teacher figure {position: relative}
+.teacher figure:after {content: ''; display: block; clear: both}
+.teacher figure img {float: left; width: 95px; height: 95px; border-radius: 10px}
+.teacher figure figcaption {float: left; margin-left: 20px}
+.teacher figure figcaption strong {display: block; font-size: 15px; color: #202020; line-height: 1; font-weight: normal; margin: 22px 0 10px}
+.teacher figure figcaption .tag {position: absolute; top: -10px; right: 0}
+.teacher figure figcaption .tag em {float: left; display: block; width: 29px; height: 33.5px; margin-left: 3px; color: #fff; text-align: center; line-height: 32px; font-weight: normal}
+.teacher figure figcaption .tag em.kor {background: transparent url("../images/bg_tag_kor.png") 0 0/100% no-repeat}
+.teacher figure figcaption .tag em.math {background: transparent url("../images/bg_tag_math.png") 0 0/100% no-repeat}
+.teacher p {margin-top: 10px; padding-top: 15px; border-top: 1px solid #dadada}
+.teacher p:after {content: ''; display: block; clear: both}
+.teacher p em {display: block; float: left; width: 48%; margin-top: 3px; padding-left: 25px; font-weight: normal; background: transparent url("../images/notice.png") 0 0/17px no-repeat}
+.teacher p a {display: block; float: right}
+
+.help {padding: 0 16px 20px; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
+.help:after {content: ''; display: block; clear: both}
+.help p {float: left; width: 68%}
+.help p strong {display: block; font-size: 13px; font-weight: normal; margin: 22px 0 6px}
+.help a {float: right; margin-top: 32.5px; border-color: #e0e0e0}
+
+.recomm {margin: 7px 0; padding: 20px 16px 25px; text-align: center; font-size: 13px; color: #000; background: url(../images/img_recomm.png) left bottom/118px auto no-repeat, url(../images/img_recomm2.png) right bottom/66.5px auto no-repeat; background-color: #eaf2f4; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
+.recomm a {display: table; margin: 16px auto 0; font-size: 11px}

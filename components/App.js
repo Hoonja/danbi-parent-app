@@ -1,20 +1,14 @@
 import React from 'react';
-
-import {
-  Navigator
-} from 'react-onsenui';
-
-import MainPage from './MainPage';
-
-const renderPage = (route, navigator) => (
-  <route.component key={route.key} navigator={navigator} />
-);
+import Header from './common/Header';
+import ContentsContainer from './common/ContentsContainer';
+import Footer from './common/Footer';
 
 const App = () => (
-  <Navigator
-    renderPage={renderPage}
-    initialRoute={{component: MainPage, key: 'MAIN_PAGE'}}
-  />
+  <div id="wrap">
+    <Header />
+    <ContentsContainer />
+    <Footer />
+  </div>
 );
 
 export default App;

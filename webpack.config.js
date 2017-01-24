@@ -17,6 +17,10 @@ module.exports = {
     filename: 'bundle.js'
   },
 
+  resolve: {
+    extensions: ['.js', '.json', '.jsx', '']
+  },
+
   devServer: {
     colors: true,
     historyApiFallback: true,
@@ -47,7 +51,7 @@ module.exports = {
         loader: 'style!css!postcss!stylus?paths=node_modules'
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         loader: 'babel',
         query: {
           'presets': ['es2015', 'stage-2', 'react'],
@@ -66,4 +70,3 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ]
 };
-
