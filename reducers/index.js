@@ -3,10 +3,10 @@ import selectedLocation from './selectedLocation';
 import locations from './locations';
 import dialog from './dialog';
 
-const todoApp = combineReducers({
+const parentApp = combineReducers({
   locations,
   selectedLocation,
   dialog
 });
 
-export default todoApp;
+export default parentApp;
