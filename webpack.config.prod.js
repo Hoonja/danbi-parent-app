@@ -13,6 +13,10 @@ module.exports = {
     filename: 'bundle.js'
   },
 
+  resolve: {
+    extensions: ['.js', '.json', '.jsx', '']
+  },
+
   module: {
     loaders: [
       {
@@ -55,4 +59,3 @@ module.exports = {
     })
   ]
 };
-

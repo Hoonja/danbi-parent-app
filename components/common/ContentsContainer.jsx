@@ -1,8 +1,9 @@
 import React from 'react';
+import TeacherContent from '../MyTeacher/TeacherContent';
 
 const ContentsContainer = () => (
   <div id="container">
-		<div id="contents"></div>
+		<TeacherContent />
 	</div>
 );
 
